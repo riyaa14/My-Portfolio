@@ -16,7 +16,8 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/my-image.png";
+import bgImage from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +25,18 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a BTech student studying at Indira Gandhi Delhi Technical University For Women. I enjoy designing and developing user interfaces and experiences. I am passionate about solving problems in new creative ways to drive innovation.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
+  "MERN stack",
+  "Selenium",
   "Web design",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Data structures and algorithms",
 ];
 
 /**
@@ -45,12 +45,12 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I like to explore and constantly learn new emerging technologies. I have worked on full stack, web scarpping and AR/VR projects. I am always open to new challenges and opportunities.";
 
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+      <img className="background" src={bgImage} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
@@ -61,6 +61,11 @@ const About = () => {
         }}
       >
         <h2>About Myself</h2>
+        <img
+          src={image}
+          alt={imageAltText}
+          style={{ borderRadius: "100%", height: "5%", width: "25%", marginTop: "12px" }}
+        />
         <p className="large">{description}</p>
         <hr />
         <ul

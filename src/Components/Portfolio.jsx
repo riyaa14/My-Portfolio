@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Student Management System",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A web application that allows university to track courses, semesters, grades, transcript requests of students and allows students to request as well as print unofficial transcript. This project uses stack data structure to efficiently order the courses keeping most recent course on the top",
+    url: "https://github.com/riyaa14/Equinox_RecordHive",
   },
   {
-    title: "Web Development for Beginners",
+    title: "How to Project",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contributed to a blog website for university which helps share students how various things are done in tech. I was responsible for frontend part of this website",
+    url: "https://github.com/riyaa14/The-How-To-Project",
   },
   {
-    title: "My Resume Site",
+    title: "The bridge of life",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Contributed to a 3D game for technical fest of college. We made use of Unity 3D and scripting for assets was done in C#. I contributed majorly to assets part in unity 3D",
+    url: "https://github.com/riyaa14/Innerve_The-Bridge-of-Life",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Together",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A web application that connects locals to each other. It helps people find communities of their interest and near them so that they can socialize easily",
+    url: "https://github.com/riyaa14/HTM_Together",
   },
 ];
 
