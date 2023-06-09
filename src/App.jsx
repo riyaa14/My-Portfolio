@@ -28,7 +28,7 @@ const siteProps = {
   title: "Web Developer",
   email: "riyag1452003@gmail.com",
   gitHub: "riyaa14",
-  instagram: "riya._.garg",
+  instagram: "riyaa._.garg",
   linkedIn: "riya-garg-rg14",
   medium: "",
   twitter: "Riyaaa_Garg",
