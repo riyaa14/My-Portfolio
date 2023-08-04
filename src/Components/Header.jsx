@@ -25,6 +25,8 @@ const Header = () => {
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#footer">Contact</a>
+      {/* add reference to Education section */}
+      <a href="#education">Education</a>
     </div>
   );
 };
